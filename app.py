@@ -49,7 +49,7 @@ st.markdown("""
 # --- Title ---
 #! Centering the title using markdown for better control
 st.markdown("<h1 style='text-align: center;'>💼 Employee Salary Prediction App</h1>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align: center;'>🔍 Predict whether an employee earns >50K or ≤50K using ML!</h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center;'>🔍 Predict whether an employee earns >$50K or ≤$50K using ML!</h4>", unsafe_allow_html=True)
 
 
 st.markdown("---")
@@ -122,9 +122,9 @@ if submitted:
 
     st.markdown("### 💡 Prediction Result")
     if label == ">50K":
-        st.success("🎉 The predicted income is greater than 50K.")
+        st.success("🎉 The predicted income is greater than $50K.")
     else:
-        st.warning("💸 The predicted income is less than or equal to 50K.")
+        st.warning("💸 The predicted income is less than or equal to $50K.")
 
 
 # --- Batch Prediction ---
