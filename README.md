@@ -9,6 +9,11 @@ A Machine Learning project that predicts whether an employee earns **>50K or ≤
 This project applies **supervised machine learning** techniques to analyze employee data and classify salary levels. It demonstrates the full ML pipeline from data preprocessing to model evaluation.
 
 ---
+##  💻 LIVE HERE
+
+Click Here : https://employeesalarypredictionchiragjain-mrftbnjidtux9q2py8wzde.streamlit.app/
+
+---
 
 ## 🧠 Machine Learning Pipeline
 
